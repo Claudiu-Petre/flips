@@ -1,6 +1,6 @@
 
 body{
-    background: #470a3a;
+    background: #140720;
     
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
@@ -46,7 +46,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin-top : 2rem;
-    background-color: #bd2c70;
+    background-color: #4a132c;
     padding: 1rem 1rem;
     border-radius: 14px;
     border: 2px solid;
@@ -74,7 +74,7 @@ body{
 }
 
 .btn{
-    background-color: #341651;
+    background-color: #140720;
     color: white;
     padding: .5em 1em;
     border-radius: .8em;
@@ -151,4 +151,22 @@ body{
 }
 .cards-option:first-child{
     margin-top: 0;
+}
+
+/* ================ MEDIA QUERY (MEDIUM devices) =========== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+
+/* ================ MEDIA QUERY (SMALL devices) =========== */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    
+
 }
